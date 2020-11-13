@@ -1,2 +1,21 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+class Homework:
+    def __init__(digit, x, a, b, c):
+        digit.x = x
+        digit.a = a
+        digit.b = b
+        digit.c = c
+
+    def check(digit):
+        
+        if digit.x == digit.a+digit.b+digit.c:
+            print("True")
+        else:
+            print("False")
+        
+        
+X = Homework(180, int(input()), int(input()), int(input()))
+
+    
+X.check()       
